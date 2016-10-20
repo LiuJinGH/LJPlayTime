@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  LJPlayTIme
+//
+//  Created by 刘瑾 on 2016/10/10.
+//  Copyright © 2016年 刘瑾. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define kRGBColor(r, g, b, a) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:a];
+
+#import "UIColor+LJPlayTimeColor.h"
+
+#endif /* PrefixHeader_pch */
